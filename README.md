@@ -102,7 +102,7 @@ TeleGramDovai/
 
 <h2 align="center">Собственные шаблоны</h2>
 
-В директории *TelegramParser/templates/* находится пример шаблона `physics_lib.py`. Шаблон представляет собой python-файл с функцией определяющей логику поведения отбора, загрузки, и записи в БД. Соответстветствующие функции для этих задач уже написаны и находятся в *TelegramParser/parser.py*.
+В директории *TelegramParser/templates/* находится пример шаблона `physics_lib.py`. Шаблон представляет собой python-файл с функцией определяющей логику поведения отбора, загрузки, и записи в БД. Соответстветствующие функции для этих задач уже написаны и находятся в *TelegramParser/parser.py*, *DatabaseTools/connect.py* и остальных модулях.
 
 Для написания шаблона нужно посмотреть на структуру канала, и структуру сообщений в нём, выделить характерные особенности для них и уже писать логику отбора.
 
@@ -120,7 +120,7 @@ TeleGramDovai/
     
     - Из терминала Linux с github:
 
-        `$ git clone https://github.com/kuusee/PlaxisRectangleGrid.git`
+        `$ git clone https://github.com/kuusee/TeleGramDovai.git`
 
     - Скачать и распаковать:
 
